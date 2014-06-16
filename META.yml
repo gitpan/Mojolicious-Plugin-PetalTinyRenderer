@@ -16,6 +16,6 @@ requires:
   Mojolicious: 5.05
   Petal::Tiny: 1.04
 resources:
-  homepage: https://github.com/lbalker/mojolicious-plugin-petaltinyrenderer
-  repository: https://github.com/lbalker/mojolicious-plugin-petaltinyrenderer.git
-version: 0.01
+  homepage: https://github.com/DK-Hostmaster/mojolicious-plugin-petaltinyrenderer
+  repository: https://github.com/DK-Hostmaster/mojolicious-plugin-petaltinyrenderer.git
+version: 0.02
