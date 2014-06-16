@@ -1,5 +1,5 @@
 package Mojolicious::Plugin::PetalTinyRenderer;
-$Mojolicious::Plugin::PetalTinyRenderer::VERSION = '0.01';
+$Mojolicious::Plugin::PetalTinyRenderer::VERSION = '0.01'; # TRIAL
 use Mojo::Base 'Mojolicious::Plugin';
 
 use Petal::Tiny;
