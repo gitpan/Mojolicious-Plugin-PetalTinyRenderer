@@ -75,6 +75,10 @@ USEFUL PATTERNS
 
      <span tal:replace="structure h/include --example/welcome" />
 
+    You can loop over Mojo::Collections:
+
+     <li tal:repeat="key some_mojo_collection" tal:content="key" />
+
     See Petal::Tiny for more.
 
     Author's observation: If you need to write very complex TAL-constructs,
@@ -90,7 +94,7 @@ EXAMPLE
     
      get '/' => sub {
          my $self = shift;
-         $self->stash( foo => [ 1,2,3 ] );
+         $self->stash( foo => Mojo::Collection->new(1,2,3) );
          $self->render('index');
      };
     

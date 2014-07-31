@@ -21,9 +21,9 @@ my %WriteMakefileArgs = (
   "NAME" => "Mojolicious::Plugin::PetalTinyRenderer",
   "PREREQ_PM" => {
     "Mojolicious" => "5.05",
-    "Petal::Tiny" => "1.04"
+    "Petal::Tiny" => "1.07"
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Mojolicious" => "5.05",
-  "Petal::Tiny" => "1.04"
+  "Petal::Tiny" => "1.07"
 );
 
 
