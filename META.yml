@@ -4,9 +4,9 @@ author:
   - 'Lars Balker <lars@balker.dk>'
 build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +15,8 @@ name: Mojolicious-Plugin-PetalTinyRenderer
 requires:
   Mojolicious: '5.05'
   Petal::Tiny: '1.07'
+  Try::Tiny: '0'
 resources:
   homepage: https://github.com/DK-Hostmaster/mojolicious-plugin-petaltinyrenderer
   repository: https://github.com/DK-Hostmaster/mojolicious-plugin-petaltinyrenderer.git
-version: '0.03'
+version: '0.04'
